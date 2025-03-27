@@ -49,12 +49,12 @@ where sale_date="2022-11-05"
 select 
  transactions_id,
  category,
- quantiy,
+ quantity,
  sale_date
 from `sqlproject1.retail`
 where 
   category="Clothing"
-  and quantiy > 3
+  and quantity > 3
   and  sale_date between '2022-11-01' and '2022-11-30';
   
 -- write a query calculate total_sale for each category?
